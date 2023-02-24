@@ -1,0 +1,16 @@
+{
+    type: Router
+    name: Circulator
+    description: Distributes input items to 11 output directions equally.
+    category: distribution
+    size: 3
+    research: distributor
+    buildVisibility: shown
+    scaledHealth: 40
+    buildCostMultiplier: 3
+    requirements: [
+        copper/8
+        lead/8
+        graphite/4
+    ]
+}
