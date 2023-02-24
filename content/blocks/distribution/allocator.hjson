@@ -1,0 +1,16 @@
+{
+    type: Router
+    name: Allocator
+    description: Distributes input items to 15 output directions equally.
+    category: distribution
+    size: 4
+    research: circulator
+    buildVisibility: shown
+    scaledHealth: 40
+    buildCostMultiplier: 3
+    requirements: [
+        copper/8
+        lead/8
+        graphite/4
+    ]
+}
