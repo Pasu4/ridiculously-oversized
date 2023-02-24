@@ -1,0 +1,15 @@
+{
+    type: Wall
+    name: Huge Plastanium Wall
+    description: Protects structures from enemy projectiles. Absorbs lasers and electric arcs. Blocks automatic power connections.
+    research: plastanium-wall-large
+    category: defense
+    size: 3
+    buildVisibility: shown
+    scaledHealth: 500
+    insulated: true
+    requirements: [
+        metaglass/18
+        plastanium/45
+    ]
+}

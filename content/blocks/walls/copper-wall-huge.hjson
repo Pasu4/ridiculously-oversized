@@ -1,0 +1,13 @@
+{
+    type: Wall
+    name: Huge Copper Wall
+    description: Protects structures from enemy projectiles.
+    research: copper-wall-large
+    category: defense
+    size: 3
+    buildVisibility: shown
+    scaledHealth: 320
+    requirements: [
+        copper/54
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    type: Wall
+    name: Huge Titanium Wall
+    description: Protects structures from enemy projectiles.
+    research: titanium-wall-large
+    category: defense
+    size: 3
+    buildVisibility: shown
+    scaledHealth: 440
+    requirements: [
+        titanium/54
+    ]
+}

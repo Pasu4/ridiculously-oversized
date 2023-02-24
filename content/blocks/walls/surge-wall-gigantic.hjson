@@ -1,0 +1,14 @@
+{
+    type: Wall
+    name: Gigantic Surge Wall
+    description: Protects structures from enemy projectiles, periodically releasing electric arcs upon contact.
+    research: surge-wall-huge
+    category: defense
+    size: 4
+    buildVisibility: shown
+    scaledHealth: 920
+    lightningChance: 0.05
+    requirements: [
+        surge-alloy/96
+    ]
+}

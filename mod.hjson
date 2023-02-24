@@ -1,0 +1,10 @@
+{
+    "name": "ridicolously-oversized",
+    "displayName": "Ridiculously Oversized",
+    "author": "Pasu4",
+    "description": "Adds ridiculously oversized factories, walls and more.",
+    "version": "0.1",
+    "minGameVersion": "142",
+    "dependencies": [ ],
+    "hidden": false
+}
