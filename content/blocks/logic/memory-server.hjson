@@ -1,0 +1,17 @@
+{
+    type: MemoryBlock
+    name: Memory Server
+    description: Stores information for a logic processor. Ultra-high capacity.
+    category: logic
+    size: 3
+    research: memory-bank
+    buildVisibility: shown
+    health: 500
+    memoryCapacity: 4096
+    requirements: [
+        copper/50
+        graphite/200
+        silicon/200
+        phase-fabric/100
+    ]
+}
