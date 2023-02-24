@@ -7,10 +7,11 @@
     research: circulator
     buildVisibility: shown
     scaledHealth: 40
-    buildCostMultiplier: 3
+    buildCostMultiplier: 2
     requirements: [
-        copper/8
-        lead/8
-        graphite/4
+        copper/20
+        lead/20
+        graphite/15
+        silicon/10
     ]
 }
