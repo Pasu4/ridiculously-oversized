@@ -1,0 +1,17 @@
+{
+    type: LogicDisplay
+    name: Huge Logic Display
+    description: Displays arbitrary graphics from a logic processor.
+    category: logic
+    size: 9
+    research: large-logic-display
+    buildVisibility: shown
+    health: 3000
+    displaySize: 272
+    requirements: [
+        lead/400
+        silicon/450
+        metaglass/200
+        phase-fabric/150
+    ]
+}

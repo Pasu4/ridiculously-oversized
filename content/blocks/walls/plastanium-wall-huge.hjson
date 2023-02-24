@@ -8,6 +8,7 @@
     buildVisibility: shown
     scaledHealth: 500
     insulated: true
+    absorbLasers: true
     requirements: [
         metaglass/18
         plastanium/45
