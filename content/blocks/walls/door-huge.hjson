@@ -1,0 +1,14 @@
+{
+    type: Door
+    name: Huge Door
+    description: A wall that can be opened and closed.
+    research: door-large
+    category: defense
+    size: 3
+    buildVisibility: shown
+    scaledHealth: 400
+    requirements: [
+        titanium/54
+        silicon/36
+    ]
+}
