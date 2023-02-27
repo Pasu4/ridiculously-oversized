@@ -13,6 +13,7 @@
     buildVisibility: shown
     scaledHealth: 40
     canOverdrive: false
+    payloadLimit: 5
     requirements: [
         copper/25
         graphite/25
