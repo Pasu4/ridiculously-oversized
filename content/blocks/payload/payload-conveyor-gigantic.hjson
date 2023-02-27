@@ -1,22 +1,22 @@
 {
     type: PayloadConveyor
-    name: Large Payload Conveyor
+    name: Gigantic Payload Conveyor
     description: Moves large payloads, such as units from factories. Magnetic. Usable in zero-G environments. Cannot unload to blocks smaller than itself.
     category: units
-    size: 5
+    size: 9
     research: {
-        parent: payload-conveyor
+        parent: payload-conveyor-large
         objectives: [
-            exponential-reconstructor
+            tetrative-reconstructor
         ]
     }
     buildVisibility: shown
     scaledHealth: 40
     canOverdrive: false
-    payloadLimit: 5
-    moveTime: 75
+    payloadLimit: 9
+    moveTime: 135
     requirements: [
-        copper/25
-        graphite/25
+        copper/90
+        graphite/90
     ]
 }
