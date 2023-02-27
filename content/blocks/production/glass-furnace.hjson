@@ -1,0 +1,55 @@
+{
+    type: AttributeCrafter
+    name: Glass Furnace
+    description: Smelts sand and lead into metaglass. Requires cryofluid as coolant. More efficient in cold locations.
+    category: crafting
+    size: 3
+    research: {
+        parent: kiln
+        objectives: [
+            // ancient-outpost
+        ]
+    }
+    buildVisibility: shown
+    health: 395
+    hasPower: true
+    hasItems: true
+    hasLiquids: true
+    requirements: [
+        lead/120
+        metaglass/60
+        titanium/120
+        silicon/40
+    ]
+    drawer: {
+        type: DrawMulti
+        drawers: [
+            {
+                type: DrawDefault
+            }
+            {
+                type: DrawFlame
+                flameColor: ffc099
+            }
+        ]
+    }
+
+    consumes: {
+        power: 5
+        items: [
+            lead/4
+            sand/6
+        ]
+        liquids: [
+            cryofluid/0.16
+        ]
+    }
+    outputItem: metaglass/8
+    itemCapacity: 30
+    craftTime: 90
+    craftEffect: smeltsmoke
+    attribute: cold
+    baseEfficiency: 0.5
+    maxBoost: 1.5
+    ambientSound: smelter
+}
