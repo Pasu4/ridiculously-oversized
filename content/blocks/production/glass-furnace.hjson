@@ -7,7 +7,7 @@
     research: {
         parent: kiln
         objectives: [
-            // ancient-outpost
+            ancient-outpost
         ]
     }
     buildVisibility: shown

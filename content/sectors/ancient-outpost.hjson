@@ -1,0 +1,12 @@
+{
+    localizedName: Ancient Outpost
+    description: efdoi
+    sector: 109
+    difficulty: 4
+    research: {
+        parent: overgrowth
+        objectives: [
+            overgrowth
+        ]
+    }
+}
