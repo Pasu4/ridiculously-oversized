@@ -1,7 +1,7 @@
 {
     type: AttributeCrafter
     name: Glass Furnace
-    description: Smelts sand and lead into metaglass. Requires cryofluid as coolant. More efficient in cold locations.
+    description: Smelts sand and lead into metaglass, using cryofluid to cool the glass faster. More efficient in cold locations.
     category: crafting
     size: 3
     research: {
