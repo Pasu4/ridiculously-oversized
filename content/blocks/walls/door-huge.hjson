@@ -2,7 +2,15 @@
     type: Door
     name: Huge Door
     description: A wall that can be opened and closed.
-    research: door-large
+    research: {
+        parent: door-large
+        objectives: [
+            {
+                type: SectorComplete
+                preset: ancient-outpost
+            }
+        ]
+    }
     category: defense
     size: 3
     buildVisibility: shown

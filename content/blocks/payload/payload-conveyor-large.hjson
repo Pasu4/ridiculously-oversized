@@ -8,6 +8,10 @@
         parent: payload-conveyor
         objectives: [
             exponential-reconstructor
+            {
+                type: SectorComplete
+                preset: overgrowth
+            }
         ]
     }
     buildVisibility: shown

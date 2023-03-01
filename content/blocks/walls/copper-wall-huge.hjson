@@ -2,7 +2,15 @@
     type: Wall
     name: Huge Copper Wall
     description: Protects structures from enemy projectiles.
-    research: copper-wall-large
+    research: {
+        parent: copper-wall-large
+        objectives: [
+            {
+                type: SectorComplete
+                preset: ancient-outpost
+            }
+        ]
+    }
     category: defense
     size: 3
     buildVisibility: shown

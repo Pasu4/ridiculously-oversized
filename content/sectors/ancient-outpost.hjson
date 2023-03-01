@@ -1,12 +1,15 @@
 {
     localizedName: Ancient Outpost
-    description: efdoi
+    description: This fortress is a remnant of the old wars. The enemy has set up a factory here as well. Research the ancient technology and destroy the outpost.
     sector: 109
     difficulty: 4
     research: {
         parent: overgrowth
         objectives: [
-            overgrowth
+            {
+                type: SectorComplete
+                preset: overgrowth
+            }
         ]
     }
 }

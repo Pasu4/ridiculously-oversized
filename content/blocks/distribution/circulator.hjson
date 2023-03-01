@@ -4,7 +4,15 @@
     description: Distributes input items to 11 output directions equally.
     category: distribution
     size: 3
-    research: distributor
+    research: {
+        parent: distributor
+        objectives: [
+            {
+                type: SectorComplete
+                preset: ancient-outpost
+            }
+        ]
+    }
     buildVisibility: shown
     scaledHealth: 40
     buildCostMultiplier: 2

@@ -2,7 +2,15 @@
     type: Wall
     name: Huge Thorium Wall
     description: Protects structures from enemy projectiles.
-    research: thorium-wall-large
+    research: {
+        parent: thorium-wall-large
+        objectives: [
+            {
+                type: SectorComplete
+                preset: ancient-outpost
+            }
+        ]
+    }
     category: defense
     size: 3
     buildVisibility: shown

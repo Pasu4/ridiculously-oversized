@@ -4,7 +4,15 @@
     description: Stores information for a logic processor. Ultra-high capacity.
     category: logic
     size: 3
-    research: memory-bank
+    research: {
+        parent: memory-bank
+        objectives: [
+            {
+                type: SectorComplete
+                preset: ancient-outpost
+            }
+        ]
+    }
     buildVisibility: shown
     health: 500
     memoryCapacity: 4096

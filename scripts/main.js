@@ -1,4 +1,7 @@
 const unhide = require("unhide");
-const attributes = require("attributes");
+require("attributes");
 
-unhide.addScrapWalls();
+Events.on(ContentInitEvent, () => {
+    // Call after init so sector requirements are initialized
+    unhide.addScrapWalls();
+});

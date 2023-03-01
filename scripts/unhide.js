@@ -15,7 +15,7 @@ exports.addScrapWalls = () => {
     TechTree.all.find(boolf(t => t.content.name.equals(Blocks.copperWallLarge))).children.add(
         TechTree.node(Blocks.scrapWall, () => {
             TechTree.node(Blocks.scrapWallLarge, () => {
-                TechTree.node(Blocks.scrapWallHuge, () => {
+                TechTree.node(Blocks.scrapWallHuge, Seq.with(new Objectives.SectorComplete(Vars.content.sector("ancient-outpost"))), () => {
                     TechTree.node(Blocks.scrapWallGigantic, () => { });
                 });
             });

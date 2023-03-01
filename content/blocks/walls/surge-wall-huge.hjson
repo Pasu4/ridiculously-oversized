@@ -2,7 +2,15 @@
     type: Wall
     name: Huge Surge Wall
     description: Protects structures from enemy projectiles, periodically releasing electric arcs upon contact.
-    research: surge-wall-large
+    research: {
+        parent: surge-wall-large
+        objectives: [
+            {
+                type: SectorComplete
+                preset: ancient-outpost
+            }
+        ]
+    }
     category: defense
     size: 3
     buildVisibility: shown

@@ -2,7 +2,15 @@
     type: Wall
     name: Huge Titanium Wall
     description: Protects structures from enemy projectiles.
-    research: titanium-wall-large
+    research: {
+        parent: titanium-wall-large
+        objectives: [
+            {
+                type: SectorComplete
+                preset: ancient-outpost
+            }
+        ]
+    }
     category: defense
     size: 3
     buildVisibility: shown

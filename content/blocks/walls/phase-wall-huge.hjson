@@ -2,7 +2,15 @@
     type: Wall
     name: Huge Phase Wall
     description: Protects structures from enemy projectiles, reflecting most bullets upon impact.
-    research: phase-wall-large
+    research: {
+        parent: phase-wall-large
+        objectives: [
+            {
+                type: SectorComplete
+                preset: ancient-outpost
+            }
+        ]
+    }
     category: defense
     size: 3
     buildVisibility: shown

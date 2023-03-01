@@ -4,7 +4,15 @@
     description: Displays arbitrary graphics from a logic processor.
     category: logic
     size: 9
-    research: large-logic-display
+    research: {
+        parent: large-logic-display
+        objectives: [
+            {
+                type: SectorComplete
+                preset: ancient-outpost
+            }
+        ]
+    }
     buildVisibility: shown
     health: 3000
     displaySize: 272
