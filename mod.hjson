@@ -2,7 +2,7 @@
     "name": "ridiculously-oversized",
     "displayName": "Ridiculously Oversized",
     "author": "Pasu4, CreepGuy",
-    "description": "Adds ridiculously oversized factories, walls and more, as well as maps to unlock them.\n Still in beta.",
+    "description": "Adds ridiculously oversized factories, walls and more, as well as maps to unlock them.\nStill in beta.",
     "version": "0.1",
     "minGameVersion": "142",
     "dependencies": [ ],
