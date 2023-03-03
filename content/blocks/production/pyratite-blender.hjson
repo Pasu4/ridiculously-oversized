@@ -19,7 +19,10 @@
     hasItems: true
     hasLiquids: true
     requirements: [
-        copper/1
+        copper/100
+        graphite/120
+        titanium/80
+        silicon/50
     ]
     drawer: {
         type: DrawMulti
@@ -31,7 +34,7 @@
                 type: DrawRegion
                 suffix: -rotator
                 spinSprite: true
-                rotateSpeed: 2
+                rotateSpeed: 6
             }
             {
                 type: DrawRegion
@@ -44,17 +47,15 @@
     consumes: {
         power: 1
         items: [
-            coal/5
             lead/3
-            sand/8
+            sand/3
         ]
         liquids: [
-            oil/0.16
+            oil/0.15
         ]
     }
-    outputItem: pyratite/8
+    outputItem: pyratite/2
     itemCapacity: 30
-    craftTime: 120
-    craftEffect: smoke
-    ambientSound: flux
+    craftTime: 40
+    craftEffect: mine
 }
