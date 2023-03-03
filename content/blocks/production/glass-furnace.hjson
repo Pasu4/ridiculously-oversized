@@ -21,8 +21,8 @@
     requirements: [
         lead/120
         metaglass/60
-        titanium/120
-        silicon/40
+        graphite/80
+        thorium/50
     ]
     drawer: {
         type: DrawMulti
