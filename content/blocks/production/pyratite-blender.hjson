@@ -1,0 +1,60 @@
+{
+    type: GenericCrafter
+    name: Pyratite Blender
+    description: oh no
+    category: crafting
+    size: 3
+    research: {
+        parent: pyratite-mixer
+        objectives: [
+            {
+                type: SectorComplete
+                preset: ancient-outpost
+            }
+        ]
+    }
+    buildVisibility: shown
+    health: 395
+    hasPower: true
+    hasItems: true
+    hasLiquids: true
+    requirements: [
+        copper/1
+    ]
+    drawer: {
+        type: DrawMulti
+        drawers: [
+            {
+                type: DrawDefault
+            }
+            {
+                type: DrawRegion
+                suffix: -rotator
+                spinSprite: true
+                rotateSpeed: 2
+            }
+            {
+                type: DrawRegion
+                suffix: -over
+            }
+        ]
+    }
+
+    // Crafting
+    consumes: {
+        power: 1
+        items: [
+            coal/5
+            lead/3
+            sand/8
+        ]
+        liquids: [
+            oil/0.16
+        ]
+    }
+    outputItem: pyratite/8
+    itemCapacity: 30
+    craftTime: 120
+    craftEffect: smoke
+    ambientSound: flux
+}
