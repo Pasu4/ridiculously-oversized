@@ -40,16 +40,16 @@
     consumes: {
         power: 5
         items: [
-            lead/4
-            sand/6
+            lead/3
+            sand/3
         ]
         liquids: [
-            cryofluid/0.16
+            cryofluid/0.066
         ]
     }
-    outputItem: metaglass/8
+    outputItem: metaglass/4
     itemCapacity: 30
-    craftTime: 90
+    craftTime: 45
     craftEffect: smeltsmoke
     attribute: cold
     baseEfficiency: 0.5
