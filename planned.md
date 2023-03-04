@@ -70,3 +70,17 @@
 ### Logic
 
 - Switch < Big Switch
+
+## Sectors 
+
+Names may be subject to change.
+
+### Serpulo
+
+- Ancient Outpost
+- Polar Vault
+
+### Erekir
+
+- ???
+- ???
