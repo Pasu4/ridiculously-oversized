@@ -11,3 +11,5 @@ Sectors are still in beta, and many blocks have not been added yet.
 - Huge and gigantic versions of all walls
 - Large versions of all 2x2 factories
 - Smaller versions of some blocks (?)
+
+Full list of currently planned features in [planned.md](https://github.com/Pasu4/ridiculously-oversized/blob/master/planned.md).
