@@ -6,6 +6,7 @@
     research: {
         parent: overgrowth
         objectives: [
+            multiplicative-reconstructor
             {
                 type: SectorComplete
                 preset: overgrowth
