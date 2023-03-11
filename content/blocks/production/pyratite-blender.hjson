@@ -1,7 +1,7 @@
 {
     type: GenericCrafter
     name: Pyratite Blender
-    description: oh no
+    description: Mixes oil, lead and sand into pyratite.
     category: crafting
     size: 3
     research: {

@@ -1,0 +1,26 @@
+{
+    type: CoreBlock
+    name: Core: Chip
+    description: Core of the base. Very weakly armored. Stores a tiny amount of resources.
+    details: A smaller version of the core designed to fit into narrow spaces.
+    category: effect
+    size: 1
+    research: {
+        parent: core-shard
+        objectives: [
+            {
+                type: SectorComplete
+                preset: ancient-outpost
+            }
+        ]
+    }
+    buildVisibility: editorOnly
+    health: 100
+    unitType: lambda
+    itemCapacity: 1000
+    unitCapModifier: 1
+    requirements: [
+        copper/200
+        lead/50
+    ]
+}
