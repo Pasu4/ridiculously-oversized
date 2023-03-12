@@ -16,7 +16,7 @@
     }
     buildVisibility: shown
     health: 100
-    unitType: mu
+    unitType: lambda
     itemCapacity: 1000
     unitCapModifier: 4
     requirements: [

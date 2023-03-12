@@ -16,7 +16,7 @@
     }
     buildVisibility: editorOnly
     health: 100
-    unitType: lambda
+    unitType: mu
     itemCapacity: 1000
     unitCapModifier: 1
     requirements: [

@@ -5,15 +5,15 @@
     isEnemy: false
     lowAltitude: true
     flying: true
-    mineSpeed: 5.5
+    mineSpeed: 6
     mineTier: 1
-    buildSpeed: 0.3
+    buildSpeed: 0.4
     drag: 0.05
-    speed: 2.5
-    rotateSpeed: 11
+    speed: 2.75
+    rotateSpeed: 13
     accel: 0.1
-    itemCapacity: 5
-    health: 100
+    itemCapacity: 15
+    health: 120
     engineOffset: 6
     hitSize: 6
     weapons: [
