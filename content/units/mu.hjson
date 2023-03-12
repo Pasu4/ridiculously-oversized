@@ -1,5 +1,5 @@
 {
-    name: Lambda
+    name: Mu
     description: Defends the Chip core from enemies. Builds structures.
     // aiController: BuilderAI
     isEnemy: false
@@ -16,6 +16,7 @@
     health: 100
     engineOffset: 6
     hitSize: 6
+    fallSpeed: 1
     weapons: [
         {
             name: explode
@@ -40,10 +41,11 @@
                 speed: 0
                 splashDamageRadius: 55
                 instantDisappear: true
-                splashDamage: 90
+                splashDamage: 30
                 killShooter: true
                 hittable: false
                 collidesAir: true
+                buildingDamageMultiplier: 0.01
             }
         }
     ]

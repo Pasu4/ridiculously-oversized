@@ -15,7 +15,7 @@
         // ]
     }
     buildVisibility: shown
-    health: 100
+    health: 500
     unitType: lambda
     itemCapacity: 1000
     unitCapModifier: 4

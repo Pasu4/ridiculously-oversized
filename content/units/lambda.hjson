@@ -16,6 +16,7 @@
     health: 120
     engineOffset: 6
     hitSize: 6
+    fallSpeed: 1
     weapons: [
         {
             name: explode
@@ -44,6 +45,7 @@
                 killShooter: true
                 hittable: false
                 collidesAir: true
+                buildingDamageMultiplier: 0.01
             }
         }
     ]
