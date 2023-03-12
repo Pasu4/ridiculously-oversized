@@ -13,9 +13,11 @@
     rotateSpeed: 11
     accel: 0.1
     itemCapacity: 5
-    health: 100
-    engineOffset: 6
-    hitSize: 6
+    health: 50
+    engineOffset: 3.5
+    engineSize: 1.5
+    buildBeamOffset: 1.6
+    hitSize: 3
     fallSpeed: 1
     weapons: [
         {
@@ -30,7 +32,7 @@
             shootY: 0
             mirror: false
             minWarmup: 1
-            shootWarmupSpeed: 0.1
+            shootWarmupSpeed: 0.15
             linearWarmup: true
             bullet: {
                 collidesTiles: false
