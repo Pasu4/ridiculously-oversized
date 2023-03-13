@@ -1,0 +1,9 @@
+{
+    type: PayloadVoid
+    name: Large Payload Void
+    description: Destroys any payloads. Sandbox only.
+    category: units
+    size: 9
+    alwaysUnlocked: true
+    buildVisibility: sandboxOnly
+}
