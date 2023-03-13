@@ -1,0 +1,52 @@
+{
+    name: Lambda
+    description: Defends the Chip core from enemies. Builds structures.
+    // aiController: BuilderAI
+    isEnemy: false
+    lowAltitude: true
+    flying: true
+    mineSpeed: 6
+    mineTier: 1
+    buildSpeed: 0.4
+    drag: 0.05
+    speed: 2.75
+    rotateSpeed: 13
+    accel: 0.1
+    itemCapacity: 15
+    health: 120
+    engineOffset: 6
+    hitSize: 6
+    fallSpeed: 1
+    weapons: [
+        {
+            name: explode
+            shootOnDeath: true
+            reload: 180
+            shootCone: 180
+            ejectEffect: none
+            shootSound: explosion
+            x: 0
+            y: 0
+            shootY: 0
+            mirror: false
+            minWarmup: 1
+            shootWarmupSpeed: 0.1
+            linearWarmup: true
+            bullet: {
+                collidesTiles: false
+                collides: false
+                hitSound: explosion
+                rangeOverride: 30
+                hitEffect: pulverize
+                speed: 0
+                splashDamageRadius: 55
+                instantDisappear: true
+                splashDamage: 90
+                killShooter: true
+                hittable: false
+                collidesAir: true
+                buildingDamageMultiplier: 0.01
+            }
+        }
+    ]
+}

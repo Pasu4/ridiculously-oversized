@@ -1,0 +1,26 @@
+{
+    type: CoreBlock
+    name: Core: Splinter
+    description: Core of the base. Weakly armored. Stores a small amount of resources.
+    details: An upgrade to the chip core.
+    category: effect
+    size: 2
+    research: {
+        parent: core-chip
+        // objectives: [
+        //     {
+        //         type: SectorComplete
+        //         preset: cave-system
+        //     }
+        // ]
+    }
+    buildVisibility: shown
+    health: 500
+    unitType: lambda
+    itemCapacity: 1000
+    unitCapModifier: 4
+    requirements: [
+        copper/500
+        lead/200
+    ]
+}

@@ -5,8 +5,9 @@ const scrapWalls = [
     Blocks.scrapWallGigantic
 ];
 
-// Make scrap walls buildable
-exports.addScrapWalls = () => {
+exports.unhide = () =>
+{
+    // Make scrap walls buildable
     scrapWalls.forEach(function (value) {
         value.buildVisibility = BuildVisibility.shown;
     });
@@ -21,5 +22,8 @@ exports.addScrapWalls = () => {
             });
         })
     );
-}
 
+    // Make Shard core visible if Chip core is researched
+    if(Vars)
+        Blocks.coreShard.buildVisibility = BuildVisibility.shown;
+};

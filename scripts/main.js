@@ -3,5 +3,5 @@ require("attributes");
 
 Events.on(ContentInitEvent, () => {
     // Call after init so sector requirements are initialized
-    unhide.addScrapWalls();
+    unhide.unhide();
 });

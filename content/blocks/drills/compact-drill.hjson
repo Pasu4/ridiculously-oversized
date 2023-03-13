@@ -1,0 +1,32 @@
+{
+    type: Drill
+    name: Compact Drill
+    description: A drill designed to efficiently mine small ore deposits.
+    category: production
+    size: 1
+    research: {
+        parent: mechanical-drill
+        // objectives: [
+        //     {
+        //         type: SectorComplete
+        //         preset: cave-system
+        //     }
+        // ]
+    }
+    buildVisibility: shown
+    health: 40
+    tier: 2
+    drillTime: 600
+    requirements: [
+        copper/4
+    ]
+
+    consumes: {
+        liquid: {
+            liquid: water
+            amount: 0.0125
+            booster: true
+            optional: true
+        }
+    }
+}

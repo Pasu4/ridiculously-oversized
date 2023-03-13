@@ -17,6 +17,7 @@
 - Cultivater < Incubator
 - Airblast Drill < ???
 - Eruption Drill < Nuclear Drill
+- Compact Drill < Mechanical Drill 
 
 ### Distribution
 
@@ -42,7 +43,7 @@
 
 ### Crafting
 
-- Planstanium Compressor < Plastanium Infuser
+- Plastanium Compressor < Plastanium Infuser
 - Phase Weaver < Phase Loom
 - Surge Smelter < Fusion Melter
 - Cryofluid Mixer < ???
@@ -63,6 +64,7 @@
 - Overdrive Dome < Overdrive Tower
 - Force Projector < Force Field Projector (?)
 - Shock Mine < Large Shock Mine
+- Chip < Splinter < Shard
 - Nucleus < Terminal < Quintessence
 - Vault < Repository
 - Unloader < Large Unloader
@@ -71,6 +73,11 @@
 
 - Switch < Big Switch
 
+## Units
+
+- Mu < Lambda < Alpha
+- Gamma < Delta < Epsilon (?)
+
 ## Sectors 
 
 Names may be subject to change.
@@ -78,9 +85,11 @@ Names may be subject to change.
 ### Serpulo
 
 - Ancient Outpost
+- Cave System
 - Polar Vault
 
 ### Erekir
 
 - ???
+- ??? (?)
 - ???
