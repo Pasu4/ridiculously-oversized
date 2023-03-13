@@ -43,7 +43,7 @@
 
 ### Crafting
 
-- Planstanium Compressor < Plastanium Infuser
+- Plastanium Compressor < Plastanium Infuser
 - Phase Weaver < Phase Loom
 - Surge Smelter < Fusion Melter
 - Cryofluid Mixer < ???
